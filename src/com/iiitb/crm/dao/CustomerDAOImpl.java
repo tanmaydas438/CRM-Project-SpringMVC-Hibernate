@@ -19,7 +19,7 @@ public class CustomerDAOImpl implements CustomerDAO{
 	private SessionFactory sessionFactory;
 	
 	
-	@Transactional
+	
 	@Override
 	public List<Customer> getCustomers()
 	{
